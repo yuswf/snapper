@@ -149,15 +149,15 @@ const getRandomHeaders = () => ({
 
     /*
     const shootButton = await page.$('.FBYjn.gK0xL.A7Cr_.m3ODJ');
-    
+
     await shootButton.evaluate(b => b.click());
-    await sleep(1000); 
+    await sleep(1000);
 
     message('Clicking the shotting button...');
     await page.click('.FBYjn.gK0xL.A7Cr_.m3ODJ');
-    
+
     const button = await page.$('.FBYjn.gK0xL.A7Cr_.m3ODJ');
-    const box = await button.boundingBox();        
+    const box = await button.boundingBox();
 
     message('Clicking the shotting button...');
     await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
@@ -190,9 +190,9 @@ const getRandomHeaders = () => ({
     await page.click('.TYX6O.eKaL7.Bnaur');
 
     message('Snap sent!');
-    message('Closing the browser...');
+    message('Browser will close in 10 seconds...');
     setTimeout(async () => {
+        message('Closed the browser...');
         await browser.close();
     }, 10000);
-
 })();
