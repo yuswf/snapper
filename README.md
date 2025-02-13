@@ -11,6 +11,9 @@ Then, you need to create a `.env` file and add the following:
 ```env
 USR=your_username
 PASSW=your_password
+SESSION=
+URL=https://accounts.snapchat.com/accounts/v2/login
+CHAT=https://web.snapchat.com
 ```
 
 ### Before running the script, you need to create a shortcut on Snapchat:
